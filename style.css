@@ -1,0 +1,511 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+background-color: black;
+}
+#header{
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+   border-radius: 20px;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search input{
+    border-style: solid;
+    border-radius: 50px;
+width: 100%;
+
+background-color: black;
+color: gray;
+display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+   
+  padding-left: 5px;
+       
+      text-transform: capitalize;
+}
+#search input:focus{
+    background-color: black;
+    color: white;
+}
+#search i{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.836);
+    border-radius: 50%;
+   margin-left: 10px; 
+   font-size: x-large;
+}
+
+#fakeheader{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
+#pg1{
+    height:90vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+#pg2{
+    height:90vh;
+    width: 100vw;
+    background-color: white;
+}
+#signup{
+    color: white;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    right: 10%;
+}
+#signup:hover{
+    color:  grey;
+}
+#login{
+    height: 80%;
+    width: 5%;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login:hover{
+    background-color: rgb(247, 246, 246);
+    height: 90%;
+    width: 6%;
+    border-radius: 30px;
+}
+#logo{
+    position:absolute;
+    left: 2%;
+    margin: 0%;
+    width: 50px;
+    height: 50px;
+}
+#logo img{
+    width: 50pxx;
+    height: 50px;
+    object-fit: cover;
+}
+#home i{
+    background-color: rgba(128, 128, 128, 0.836);
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+#premium{
+background-image: linear-gradient(rgb(248, 9, 192),aqua);
+color: white;
+font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#getprem button{
+    position: absolute;
+    right: 5%;
+    background-color: white;
+    color: black;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 50px;
+    width: 10vw;
+    height: 40%;
+justify-content: center;
+align-items: center;
+}
+#cancel button{
+    width: 10vw;
+    height: 40%;
+    position: absolute;
+    right: 5%;
+    bottom:1%;
+    background-color: white;
+    color: black;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 50px;
+
+justify-content: center;
+align-items: center;
+}
+
+#half1{
+    background-color: rgb(35, 34, 34);
+    width: 30vw;
+    height: 100%;
+
+border: solid black;
+ border-radius: 50px;
+ display: flex;
+ flex-direction: column;
+ justify-content: first baseline;
+ 
+}
+#half1 i{
+    font-size: large;
+    position:relative;
+    left: 5%;
+    top: 25px;
+    color: white;
+}
+ h3{
+    color: white;
+ font-family: "Poppins",serif;
+ font-weight: bold;
+ font-style: normal;
+ position: relative;
+ left: 50px;
+
+}
+ 
+h1{
+    color: white;
+ font-family: "Poppins",serif;
+ font-weight: bolder;
+ font-style: normal;
+display: flex;
+}
+
+h4{
+    color: white;
+ font-family: "Poppins",serif;
+ font-weight: normal;
+ font-style: normal;
+display: flex;
+}
+
+#blk1{
+    background-color: black;
+     border-radius: 50px;
+     height: 150px;
+     padding: 20px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: space-evenly;
+}
+#blk2{
+
+    background-color: black;
+     border-radius: 50px;
+     height: 150px;
+     padding: 20px;
+    position: relative;
+    top:    40px;
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: space-evenly;
+}
+#bpd button{
+   
+    
+    background-color: white;
+    color: black;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 50px;
+    width: 10vw;
+    
+    
+
+}
+#half1 h5{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    color: white;
+ font-family: "Poppins",serif;
+ font-weight: normal;
+ font-style: normal;
+display: flex;
+}
+#crtpl button{
+   
+    
+    background-color: white;
+    color: black;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 50px;
+    width: 10vw;
+    
+    
+
+}
+#half2{
+    background-color: rgb(35, 34, 34);
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    
+border-radius: 50px;
+border: solid black;
+}
+
+#heading{
+    display: flex;
+    
+    position: relative;
+    bottom: 10px;
+    
+}
+#contenth2{
+    position: relative;
+    bottom: 75px;
+}
+#headingleft{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#headingleft:hover{
+    text-decoration: underline white;
+    text-decoration-line: underline;
+
+
+}
+#headingright{
+    position:absolute;
+    right: 3%;
+    margin-top: 35px;
+}
+
+#row1{
+    height: 200px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+#sin1{
+    height: 100%;
+    width: 20%;
+}
+#sin1:hover{
+    background-color: grey;
+    border-radius: 50px;
+}
+
+#sin2{
+    height: 100%;
+    width: 20%;
+    
+}
+#sin3{
+    height: 100%;
+    width: 20%;
+    
+}
+#sin4{
+    height: 100%;
+    width: 20%;
+    
+}
+
+#row2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+
+}
+#alb1{
+    height: 100%;
+    width: 20%;
+    
+}
+#alb2{
+    height: 100%;
+    width: 20%;
+}
+#alb3{
+    height: 100%;
+    width: 20%;
+}
+#alb4{
+    height: 100%;
+    width: 20%;
+}
+#row1 img{
+    width:80%;
+    height:80% ;
+    border-radius: 50%;
+    object-fit: cover;
+   position: relative;
+   left: 20px;
+   top: 10px;
+}
+
+#row2 img{
+    width:80%;
+    height:80% ;
+    border-radius: 10%;
+    object-fit: cover;
+   position: relative;
+   left: 20px;
+   
+}
+#row2 h4{
+    position: relative;
+    top: 10px;
+
+    font-weight: bold;
+}
+#row1 h4{
+    position: relative;
+    top: 10px;
+
+    font-weight: bold;
+}
+#sin1 h4{
+    position: relative;
+    left: 75px;
+}
+#sin2 h4{
+    position: relative;
+    left: 55px;
+}
+#sin3 h4{
+    position: relative;
+    left: 65px;
+}
+#sin4 h4{
+    position: relative;
+    left: 60px;
+}
+#sin2:hover{
+    background-color: grey;
+    border-radius: 50px;
+}
+#sin3:hover{
+    background-color: grey;
+    border-radius: 50px;
+}
+#sin4:hover{
+    background-color: grey;
+    border-radius: 50px;
+}
+
+
+#head{
+    display: flex;
+    
+    position: relative;
+    
+}
+#headleft{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#headleft:hover{
+    text-decoration: underline white;
+    text-decoration-line: underline;
+
+
+}
+#headright{
+    position:absolute;
+    right: 3%;
+    margin-top: 15px;
+}
+
+#alb1:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+#alb2:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+#alb3:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+#alb4:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+#alb1 h4{
+    position: relative;
+    left: 70px;
+}
+#alb2 h4{
+    position: relative;
+    left:80px ;
+}
+#alb3 h4{
+    position: relative;
+    left:10px ;
+}
+#alb4 h4{
+    position: relative;
+    left:60px ;
+}
+#play{
+    color: black;
+    background-color: rgb(21, 219, 21);
+    border-radius: 50%;
+    width: 7%;
+    position: relative;
+    right: 15px;
+    
+}
